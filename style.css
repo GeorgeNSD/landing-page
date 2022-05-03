@@ -1,0 +1,73 @@
+html{
+    box-sizing: box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header_main_text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+a, .header_secondary_text{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.information{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.thor{
+    font-weight: 800;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 2px 13px 2px 13px;
+}
+
+.button2{
+    border-color: #F9FAF8;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    white-space: pre;
+}
