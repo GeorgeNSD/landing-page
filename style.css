@@ -27,6 +27,17 @@ a, .header-secondary-text{
     text-decoration: none;
 }
 
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 900;
+}
+
 .upper-header{
     display: flex;
     justify-content: space-between;
@@ -69,6 +80,28 @@ a, .header-secondary-text{
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.illustrations{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding-bottom: 100px;
+}
+
+.illustration{
+    max-width: 140px;
+    text-align: center;
+}
+
+.square{
+    width: 140px;
+    height: 140px;
+    border: 5px solid #3882F6;
+    border-radius: 14px;
 }
 
 .quote-section{
@@ -88,16 +121,6 @@ a, .header-secondary-text{
 .call-to-action{
     background-color: #3882F6;
     color: #F9FAF8;
-}
-
-button{
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-color: #3882F6;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 1px;
-    padding: 2px 13px 2px 13px;
 }
 
 .button2{
