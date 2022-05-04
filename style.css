@@ -106,21 +106,41 @@ button{
 
 .quote-section{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote{
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    max-width: 760px;
+    align-self: center;
+    padding-top: 120px;
 }
 
 .thor{
     font-weight: 800;
+    align-self: center;
+    width: 700px;
+    text-align: end;
+    padding-bottom: 90px;
+}
+
+.call-to-action-section{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    width: 600px;
+    padding: 60px 120px;
+    gap: 100px;
+    border-radius: 10px;
 }
 
 .call-to-action{
-    background-color: #3882F6;
-    color: #F9FAF8;
+    font-weight: 800;
 }
 
 .button2{
@@ -131,4 +151,6 @@ button{
     background-color: #1F2937;
     color: #F9FAF8;
     white-space: pre;
+    text-align: center;
+    padding: 40px 0;
 }
