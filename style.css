@@ -1,13 +1,13 @@
-html{
-    box-sizing: box;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-*{
-    box-sizing: inherit;
-}
+/*HEADER SECTION*/
 
 .header{
     background-color: #1F2937;
+    padding: 15px 300px 130px 300px;
 }
 
 .logo{
@@ -15,17 +15,55 @@ html{
     color: #F9FAF8;
 }
 
-.header_main_text{
+.header-main-text{
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-a, .header_secondary_text{
+a, .header-secondary-text{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
+
+.upper-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.links{
+    margin: auto 0;
+    display: flex;
+    gap: 20px;
+}
+
+.lower-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome-section{
+    margin: auto 0;
+    max-width: 400px;
+}
+
+.button1{
+    margin-top: 8px;
+}
+
+.placeholder{
+    background-color: #6d747d;
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: auto 0;
+    padding: 100px 120px;
+}
+
+
+
+/*MAIN SECTION*/
 
 .information{
     font-size: 36px;
